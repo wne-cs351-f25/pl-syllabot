@@ -1,0 +1,50 @@
+# Ruler Configuration File
+# See https://ai.intellectronica.net/ruler for documentation.
+
+# Configure the most popular coding agents for CS351 Syllabot
+default_agents = ["claude", "copilot", "cursor", "aider", "windsurf", "cline", "openhands"]
+
+# --- Agent Specific Configurations ---
+# Enable the most popular coding agents with their default paths
+
+[agents.claude]
+enabled = true
+output_path = "CLAUDE.md"
+
+[agents.copilot]
+enabled = true
+output_path = ".github/copilot-instructions.md"
+
+[agents.cursor]
+enabled = true
+output_path = ".cursor/rules/ruler_cursor_instructions.mdc"
+
+[agents.aider]
+enabled = true
+output_path_instructions = "ruler_aider_instructions.md"
+output_path_config = ".aider.conf.yml"
+
+[agents.windsurf]
+enabled = true
+output_path = ".windsurf/rules/ruler_windsurf_instructions.md"
+
+[agents.cline]
+enabled = true
+output_path = ".clinerules"
+
+[agents.openhands]
+enabled = true
+output_path = ".openhands/microagents/repo.md"
+
+# Additional popular agents
+[agents.codex]
+enabled = true
+output_path = "AGENTS.md"
+
+[agents.gemini-cli]
+enabled = true
+output_path = "GEMINI.md"
+
+[agents.kilocode]
+enabled = true
+output_path = ".kilocode/rules/ruler_kilocode_instructions.md"

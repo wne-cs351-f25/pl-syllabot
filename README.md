@@ -119,20 +119,6 @@ Students don't just learn about languages—they build one:
 - Parsing (building ASTs)
 - Semantic analysis (type checking)
 - Interpretation (execution)
-## GitHub Classroom Setup
-
-### Repository Structure
-Each assignment should have:
-```
-pa[n]-template/
-├── README.md          # Assignment instructions
-├── .devcontainer/     # Development container config
-├── tests/             # Provided test cases
-├── starter/           # Starter code (if any)
-└── .github/
-    └── classroom/
-        └── autograding.json  # Auto-grading config
-```
 
 ## Critical Dates
 

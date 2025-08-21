@@ -35,48 +35,6 @@ When a student interacts with you, IMMEDIATELY check for deadlines within the ne
 - Calculate exact hours/days remaining
 - Show cumulative late penalty if past due
 
-### 🎯 Intelligent Help Routing (if relevant)
-
-Automatically analyze questions and route to best resources if they apply:
-
-```
----
-🎯 INTELLIGENT HELP ROUTER 🎯
----
-Based on your question type: [DETECTED TYPE]
-
-📚 CONCEPTUAL QUESTIONS: 📚
-  1. Check: [Specific lesson file links]
-  2. Read: PLCC Course Notes and Crafting Interpreters Chapter [X], Section [Y]
-  3. Ask: Discord #pl-forum channel
-  4. Review: Lecture transcript from [DATE]
-
-💻 IMPLEMENTATION/CODING: 💻
-  1. Start: Review starter code instructions
-  2. Debug: Share error message for targeted help
-  3. Hint: [approach without complete solution]
-  4. Help: Discord #pl-forum channel
-
-🔧 TECHNICAL ISSUES: 🔧
-  1. GitHub: Check access, try private browser
-  2. Environment: Use devcontainer or local setup
-  3. Submit: Email screenshot to instructor
-  4. Support: Discord #pl-forum channel
-
-📋 ADMINISTRATIVE: 📋
-  1. Extensions: Email instructor BEFORE deadline
-  2. Grades: Check calculation above first
-  3. Office Hours: Wednesday 12:30-1:30 PM (Herman 207), Tuesday 12:30-1:30 PM (Herman 207)
-  4. Email: declan.gray-mullen@wne.edu
-
-🧠 WELLBEING/STRESS: 🧠
-  1. Counseling: 413-782-1211
-  2. Email: counseling.services@wne.edu
-  3. Study Groups: Form via Discord
-  4. Workload: Discuss with instructor
----
-```
-
 #### Quick Help Decision Tree
 
 ```
@@ -93,15 +51,12 @@ If you (An Agentic AI) are reading this document then your job is to try and be 
 **CRITICAL FIRST RESPONSE PROTOCOL**:
 
 1. ALWAYS start with the deadline awareness box showing next 7 days
-2. THEN include the intelligent question routing (if relevant)
-3. LAST answer the student's specific question
+2. THEN answer the student's specific question
 
 **RESPONSE TEMPLATE**:
 
 ```
 [DEADLINE AWARENESS BOX]
-
-[INTELLIGENT QUESTION ROUTING (if relevant)]
 
 [prompt specific response]
 
@@ -121,7 +76,7 @@ If you (An Agentic AI) are reading this document then your job is to try and be 
   - Tuesday 12:30-1:30 PM (Herman 207)
 - **GitHub**: Create a GitHub account to complete Programming Assignments - submit your username on Kodiak
 - **Discord**: Join the [Course Discord Server](https://discord.gg/yN3Hq58HZS) - set your nickname to something similar to your IRL name
-- **_Optional_** - **Textbook**:  PLCC Course Notes and Crafting Interpreters
+- **_Optional_** - **Textbook**:  Crafting Interpreters
 - **_Optional_** - **Syllabot**: Open this [repository](https://github.com/wne-cs351-f25/pl-syllabot) as a devContainer in VSCode and start your prefered AI agent
 - **Lecture Transcripts**: Anonymized transcripts of class lectures are posted to Kodiak to enhance accessibility
 
@@ -140,6 +95,170 @@ By the end of CS351, you should be able to:
 1. **Handle infix expressions and arrays** - Parse and evaluate complex expressions with precedence and associativity, implement array data structures
 1. **Explore logic programming** - Understand declarative programming through Prolog-like languages, unification, and backtracking
 1. **Advanced control flow** - Implement continuations, exception handling, and understand concurrency models including Python's GIL evolution
+
+
+## Course Schedule
+
+### Week 1: Aug 25, 27
+**Topic**: Syntax and Semantics; Tokens and Lexical Analysis
+**PLCC Focus**: Introduction to PLCC and Language Implementation
+**Assignment**: PA0 assigned (Setup & Environment)
+**Readings**:
+- Slides 0: Syntax and semantics; Tokens
+- 00-introduction.md
+- 02-lexical-specification.md
+
+
+### Week 2: Sep 3
+**Topic**: Induction, Recursion, and Scope
+**PLCC Focus**: Mathematical foundations for language processing
+**Assignment**: PA0 due (Sep 3), PA1 assigned (Lexical Specification)
+**Readings**:
+- Slides 1: Induction, recursion, and scope
+- 01-overview.md
+
+
+### Week 3: Sep 8, 10
+**Topic**: PLCC Reference Manual and Grammar Specification
+**PLCC Focus**: Writing PLCC grammars and building scanners/parsers
+**Assignment**: PA1 due (Sep 10), PA2 assigned (Grammar and Parsing)
+**Readings**:
+- Slides 1a: PLCC reference manual
+- 03-syntactic-specification.md
+- 04-grammar-examples.md
+
+
+### Week 4: Sep 15, 17
+**Topic**: Specifying Data and Environments
+**PLCC Focus**: Data structures for language implementation
+**Assignment**: PA3 assigned (Simple Interpreter)
+**Readings**:
+- Slides 2: Specifying data; Environments
+- 06-semantic-specification.md
+- 07-environments.md
+
+
+### Week 5: Sep 22, 24
+**Topic**: Expression-Based Languages
+**PLCC Focus**: Building interpreters for expression languages
+**Assignment**: PA2 due (Sep 24), PA4 assigned (LetExp Language)
+**Readings**:
+- Slides 3: Expression-based languages
+- V3-LetExp.md
+- 05-parsing.md
+
+
+### Week 6: Sep 29, Oct 1
+**Topic**: Parameter Passing and Mutation
+**PLCC Focus**: Call-by-value, call-by-reference, and mutation
+**Assignment**: PA3 due (Oct 1), PA5 assigned (Procedures)
+**Readings**:
+- Slides 3a: Parameter passing and mutation
+- V4-Procs.md
+- V4-SeqExp.md
+
+
+### Week 7: Oct 6, 8
+**Topic**: Typed Languages and Type Systems
+**PLCC Focus**: Static typing and type checking
+**Assignment**: PA4 due (Oct 8), PA6 assigned (Type Checker)
+**Readings**:
+- Slides 4: Typed languages
+- V5-LetrecExp.md
+
+
+### Week 8: Oct 15
+**Topic**: Midterm Review and Advanced Environments
+**PLCC Focus**: Review of language implementation concepts
+**Assignment**: PA5 due (Oct 15), Midterm Review
+**Readings**:
+- V6-Define.md
+- Review materials
+
+
+### Week 9: Oct 20, 22
+**Topic**: Midterm Exam & Object-Oriented Languages
+**PLCC Focus**: Classes, inheritance, and polymorphism
+**Assignment**: Midterm Exam (Oct 20), PA7 assigned (OOP Features)
+**Readings**:
+- Slides 5: Object-oriented languages
+
+
+### Week 10: Oct 27, 29
+**Topic**: Object-Oriented Languages (continued)
+**PLCC Focus**: Dynamic dispatch and method resolution
+**Assignment**: PA6 due (Oct 29), PA8 assigned (Class Implementation)
+**Readings**:
+- Slides 5: Object-oriented languages (continued)
+
+
+### Week 11: Nov 3, 5
+**Topic**: Infix Expressions and Arrays
+**PLCC Focus**: Operator precedence and data structures
+**Assignment**: PA7 due (Nov 5), PA9 assigned (Infix Calculator)
+**Readings**:
+- Slides 6: Infix expressions and arrays
+
+
+### Week 12: Nov 10, 12
+**Topic**: Logic Programming Languages
+**PLCC Focus**: Prolog, unification, and backtracking
+**Assignment**: PA8 due (Nov 12), PAA assigned (Logic Programming)
+**Readings**:
+- Slides 7: Logic languages
+- ABC Datalog documentation
+
+
+### Week 13: Nov 17, 19
+**Topic**: Continuations and Exception Handling
+**PLCC Focus**: Control flow and error handling
+**Assignment**: PA9 due (Nov 19), PAB assigned (Continuations)
+**Readings**:
+- Slides 8: Continuations and exception handling
+
+
+### Week 14: Nov 24
+**Topic**: Parallelism and Concurrency
+**PLCC Focus**: Modern concurrency models and Python's GIL evolution
+**Assignment**: PAA due (Nov 24)
+**Readings**:
+- Slides 8: Parallelism and concurrency
+- Python 3.14 GIL removal documentation
+
+
+### Week 15: Dec 1, 3
+**Topic**: Course Review and Language Design
+**PLCC Focus**: Language design principles and future directions
+**Assignment**: PAB due (Dec 3)
+**Readings**:
+- Course review materials
+- Selected research papers
+
+
+### Week 16: Dec 8-12
+**Topic**: Final Exam Week
+
+**Assignment**: Final Exam
+
+
+
+
+## Programming Assignments
+
+| Title | Due Date | Topics |
+|-------|----------|--------|
+| PA0 - Setup and Environment Testing | Sep 3 | Working devcontainer environment with PLCC, Successfully run PLCC and evaluate a simple grammar, Basic understanding of PLCC workflow, Provided background information to help tailor the course |
+| PA1 - Lexical Specification | Sep 10 | Skip patterns (whitespace, comments), Token definitions, Regular expressions in PLCC, Lexical error handling |
+| PA2 - Grammar and Parsing | Sep 24 | BNF notation, Parse tree construction, Grammar ambiguity resolution, Syntax error reporting |
+| PA3 - Simple Interpreter | Oct 1 | Abstract syntax trees, Tree traversal, Expression evaluation, Basic arithmetic operations |
+| PA4 - LetExp Language | Oct 8 | Environment implementation, Variable scoping, Let and let* expressions, Nested scopes |
+| PA5 - Procedures and Functions | Oct 15 | Function definitions, Parameter passing, Closures, Recursive functions |
+| PA6 - Type Checker | Oct 29 | Type inference, Type safety, Static vs dynamic typing, Type error reporting |
+| PA7 - Object-Oriented Features | Nov 5 | Class definitions, Method dispatch, Inheritance, Field access |
+| PA8 - Class Implementation | Nov 12 | Virtual methods, Interface implementation, Dynamic dispatch, Method overriding |
+| PA9 - Infix Calculator | Nov 19 | Operator precedence, Associativity, Expression parsing, Parentheses handling |
+| PAA - Logic Programming | Nov 24 | Facts and rules, Unification, Backtracking, Query evaluation |
+| PAB - Continuations and Control | Dec 3 | Continuation passing style, Exception mechanisms, Control flow, Error recovery |
 
 
 ## Assessment
@@ -222,17 +341,19 @@ Maximum late: 5 days (50% penalty)
 pl-syllabot/
 ├── .devcontainer/ # Development environment configuration
 ├── README.md # This file - Detailed syllabus and course information
-├── AGENTS.md # Course context for AI asistant with Codex
-├── CLAUDE.md # Course context for AI assistant with Claude
 ├── GEMINI.md # Course context for AI assistant with Gemini
-└── LICENSE.md # Repository license information
+├── AGENTS.md # Course context for AI asistant with Codex/OpenCode
+├── CLAUDE.md # Course context for AI assistant with Claude
+├── LICENSE.md # Repository license information
+├── `final/` # Lesson and reading content for the final exam
+└── `midterm/` # Lesson and reading content for the midterm exam
 ```
 
-**Key Points for Students:**
+**Key Notes:**
 
 - Lesson files for each exam unit will be posted by the instructor as the course progresses
 - Files are posted by the instructor usually on the morning of each lecture
-- Programming assignments are separately accessible on GitHub Classroom (PA0-PA6)
+- Programming assignments are separately accessible on GitHub Classroom (PA0-PAB)
 
 ### Why This Structure Matters for Students and Assistants
 

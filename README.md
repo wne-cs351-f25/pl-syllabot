@@ -7,60 +7,65 @@ Welcome to CS351 Programming Languages! This course explores the fundamental con
 
 - **Course**: CS351 - Programming Languages
 - **Semester**: Fall 2025
-- **Instructor**: Declan Gray-Mullen - Lecturer - declan.gray-mullen@wne.eedu
+- **Instructor**: Declan Gray-Mullen - Lecturer - declan.gray-mullen@wne.edu
 - **Prerequisites**: CS200 & CS210
 - **Sections**:
+  - CS351-01: Monday/Wednesday 11:00 AM - 12:20 PM
+  - CS351-03: Monday/Wednesday 2:00 - 3:20 PM
 - **Office Hours**:
   - Wednesday 12:30-1:30 PM (Herman 207)
   - Tuesday 12:30-1:30 PM (Herman 207)
 - **GitHub**: Create a GitHub account to complete Programming Assignments - submit your username on Kodiak
-- **Discord**: Join the [Course Discord Server]() - set your nickname to something similar to your IRL name
-- **_Optional_** - **Textbook**:  TBD
-- **_Optional_** - **Syllabot**: Open this [repository]() as a devContainer in VSCode and start your prefered AI agent
+- **Discord**: Join the [Course Discord Server](https://discord.gg/yN3Hq58HZS) - set your nickname to something similar to your IRL name
+- **_Optional_** - **Textbook**:  PLCC Course Notes and Crafting Interpreters
+- **_Optional_** - **Syllabot**: Open this [repository](https://github.com/wne-cs351-f25/pl-syllabot) as a devContainer in VSCode and start your prefered AI agent
 - **Lecture Transcripts**: Anonymized transcripts of class lectures are posted to Kodiak to enhance accessibility
 
-## Course Overview
+## Course Learning Objectives
 
-This course covers multiple programming paradigms and languages:
-1. **Procedural Programming** - C
-2. **Functional Programming** - JavaScript  
-3. **Object-Oriented Programming** - Java/Python
-4. **Logical Programming** - Prolog (introduction)
-5. **Language Implementation** - PLCC
-6. **Modern Multi-Paradigm** - Rust
+By the end of CS351, you should be able to:
 
-## Learning Objectives
+1. **Master language implementation** - Build interpreters and understand how programming languages work from lexical analysis through semantic evaluation using PLCC
+1. **Understand syntax and semantics** - Distinguish between how programs are written (syntax) and what they mean (semantics) through formal specifications
+1. **Apply induction and recursion** - Use mathematical induction and recursive techniques to define and process language constructs
+1. **Implement scoping and environments** - Build and manipulate environments to handle variable scoping, binding, and lexical/dynamic scope
+1. **Design expression-based languages** - Create and evaluate languages where everything is an expression, understanding evaluation strategies
+1. **Master parameter passing mechanisms** - Implement and compare call-by-value, call-by-reference, call-by-name, and call-by-need strategies
+1. **Build type systems** - Design and implement static type checking, type inference, and understand type safety guarantees
+1. **Implement object-oriented features** - Add classes, inheritance, polymorphism, and dynamic dispatch to language implementations
+1. **Handle infix expressions and arrays** - Parse and evaluate complex expressions with precedence and associativity, implement array data structures
+1. **Explore logic programming** - Understand declarative programming through Prolog-like languages, unification, and backtracking
+1. **Advanced control flow** - Implement continuations, exception handling, and understand concurrency models including Python's GIL evolution
 
-By the end of this course, students will:
-- Understand different programming paradigms and their trade-offs
-- Master key concepts like scope, binding, type systems, and memory management
-- Implement interpreters and understand language implementation
-- Compare and contrast features across different programming languages
-- Apply appropriate paradigms to solve various computational problems
 
 ## Programming Assignments
 
-| Assignment | Title | Due Date | Language |
-|------------|-------|----------|----------|
-| PA0 | GitHub Classroom & Development Environment Setup | September 10, 2025 | Multiple |
-| PA1 | Procedural Programming in C | September 24, 2025 | C |
-| PA2 | Functional Programming in JavaScript | October 8, 2025 | JavaScript |
-| PA3 | Object-Oriented Design in Java | October 22, 2025 | Java |
-| PA4 | Building a Simple Interpreter | November 5, 2025 | Java/PLCC |
-| PA5 | Type Systems and Type Checking | November 19, 2025 | Multiple |
-| PA6 | Modern Language Features with Rust | December 3, 2025 | Rust |
+| Title | Due Date |
+|------------|-------|
+| PA0 - Setup and Environment Testing | Sep 3 |
+| PA1 - Lexical Specification | Sep 10 |
+| PA2 - Grammar and Parsing | Sep 24 |
+| PA3 - Simple Interpreter | Oct 1 |
+| PA4 - LetExp Language | Oct 8 |
+| PA5 - Procedures and Functions | Oct 15 |
+| PA6 - Type Checker | Oct 29 |
+| PA7 - Object-Oriented Features | Nov 5 |
+| PA8 - Class Implementation | Nov 12 |
+| PA9 - Infix Calculator | Nov 19 |
+| PAA - Logic Programming | Nov 24 |
+| PAB - Continuations and Control | Dec 3 |
 
 
 ## Exams
 
-- **Midterm Exam**: October 27, 2025 (20%)
-- **Final Exam**: December 8-12, 2025 (TBD) (25%)
+- **Midterm Exam**: Monday, October 20 (15%)
+- **Final Exam**: Monday, December 8 - Friday, December 12 (15%)
 
 ## Grading
 
-- Programming Assignments: 55%
-- Midterm Exam: 25%
-- Final Exam: 20%
+- Programming Assignments: 70%
+- Midterm Exam: 15%
+- Final Exam: 15%
 
 **Grading Scale**:
 - A: 93-100%
@@ -75,46 +80,11 @@ By the end of this course, students will:
 - D: 60-66%
 - F: Below 60%
 
-## Assessment Rubrics
-
-### Programming Assignments
-- **Functionality** (40%): Does it work correctly?
-- **Design** (25%): Is it well-structured?
-- **Style** (15%): Is it readable and documented?
-- **Testing** (20%): Are there comprehensive tests?
-
-### Exams
-- **Conceptual Questions** (40%): Paradigm understanding
-- **Code Analysis** (30%): Read and explain code
-- **Code Writing** (30%): Write small programs
-
 ## Course Philosophy
 
-This course takes a **comparative and practical approach** to teaching programming languages. Rather than being purely theoretical, students will:
-1. Write code in multiple languages (C, JavaScript, Java, Python, Rust)
-2. Build their own interpreter to understand language implementation
-3. Compare paradigms through hands-on projects
-4. Apply appropriate paradigms to real problems
+### Implementation Focus
 
-## Key Differentiators
-
-### 1. Modern Language Selection
-- **Classic foundations**: C (procedural), Java (OO)
-- **Modern multi-paradigm**: JavaScript, Python, Rust
-- **Practical focus**: Languages students will actually use
-
-### 2. Project-Based Learning
-Each assignment builds practical skills:
-- PA0: Environment setup across multiple languages
-- PA1: Memory management and data structures (C)
-- PA2: Functional programming patterns (JavaScript)
-- PA3: Object-oriented design with patterns (Java)
-- PA4: Build an interpreter (understanding languages)
-- PA5: Type systems comparison (multiple languages)
-- PA6: Modern concurrency and safety (Rust)
-
-### 3. Implementation Focus
-Students don't just learn about languages—they build one:
+Don't just learn about languages—build them:
 - Lexical analysis (tokenization)
 - Parsing (building ASTs)
 - Semantic analysis (type checking)
@@ -126,11 +96,11 @@ Students don't just learn about languages—they build one:
 - Friday, Sept 5: Last add/drop
 - Monday, Oct 13: No Class (Fall Break)
 - Monday, Oct 20: In-progress grades
-- October 27, 2025: **Midterm*** - Midterm Exam
+- Monday, October 20: **Midterm*** - Midterm Exam
 - Monday, Oct 27: Last withdraw
 - Wednesday, Nov 26: No Class (Thanksgiving)
 - Wednesday, Dec 3: Last class
-- December 8-12, 2025 (TBD): **Final** - Final Exam (Location TBD)
+- Monday, December 8 - Friday, December 12: **Final** - Final Exam (Location TBD)
 - Monday, Dec 15: Final grades posted
 
 ## Prerequisites
@@ -141,4 +111,4 @@ Students don't just learn about languages—they build one:
 
 ---
 
-_Course content developed by Declan Gray-Mullen for  with Claude_
+_Course content developed by Declan Gray-Mullen for WNEU with Claude_

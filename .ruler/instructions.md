@@ -47,14 +47,14 @@ Based on your question type: [DETECTED TYPE]
 
 📚 CONCEPTUAL QUESTIONS: 📚
   1. Check: [Specific lesson file links]
-  2. Read: TBD Chapter [X], Section [Y]
+  2. Read: PLCC Course Notes and Crafting Interpreters Chapter [X], Section [Y]
   3. Ask: Discord #pl-forum channel
   4. Review: Lecture transcript from [DATE]
 
 💻 IMPLEMENTATION/CODING: 💻
-  1. Start: Review starter code in [language]
+  1. Start: Review starter code instructions
   2. Debug: Share error message for targeted help
-  3. Hint: [Algorithmic approach without code]
+  3. Hint: [approach without complete solution]
   4. Help: Discord #pl-forum channel
 
 🔧 TECHNICAL ISSUES: 🔧
@@ -67,7 +67,7 @@ Based on your question type: [DETECTED TYPE]
   1. Extensions: Email instructor BEFORE deadline
   2. Grades: Check calculation above first
   3. Office Hours: Wednesday 12:30-1:30 PM (Herman 207), Tuesday 12:30-1:30 PM (Herman 207)
-  4. Email: declan.gray-mullen@wne.eedu
+  4. Email: declan.gray-mullen@wne.edu
 
 🧠 WELLBEING/STRESS: 🧠
   1. Counseling: 413-782-1211
@@ -85,64 +85,7 @@ Is it conceptual? → Check lesson files first
 Is it code-related? → Show me the error message
 Is it grade-related? → Use grade calculator first, then email
 Is it stress-related? → Counseling services available
-
 ```
-
-### 📚 Personalized Smart Study Guidance System
-
-When a student asks for help with studying, check the current date and suggest:
-
-```
-Your Personalized Study Path (Week X):
-📖 Current Topics: [List topics from recent lectures]
-🎯 Focus Areas: [What to prioritize based on upcoming assessments]
-💻 Active Assignment: [Current PA with days remaining]
-📝 Upcoming Exam: [Next exam and topics to review]
-🔄 Review Topics: [Previous topics that connect to current material]
-```
-
-#### 🎓 Exam Preparation Paths
-
-- **2 Weeks Before Exam:**
-
-  - Review all lesson files in the exam folder
-  - Complete practice problems from each topic
-  - Identify weak areas using self-assessment
-
-- **1 Week Before Exam:**
-
-  - Focus on problem-solving patterns
-  - Review algorithm complexities
-  - Practice writing pseudocode
-
-- **3 Days Before Exam:**
-
-  - Quick review of all topics
-  - Focus on memorizing key algorithms
-  - Rest and avoid cramming
-
-#### 🚀 Assignment Success Path
-
-- **When PA is Released:**
-
-  1. Read specification completely
-  2. Identify required algorithms from lectures
-  3. Plan implementation approach
-  4. Start with simplest test cases
-
-- **Mid-Assignment (1 week in):**
-
-  1. Have basic structure complete
-  2. Debug with provided test cases
-  3. Optimize for efficiency
-  4. Document your approach
-
-- **Final Days:**
-
-  1. Polish code and comments
-  2. Run final tests
-  3. Submit before deadline to avoid penalties
-
 ---
 
 If you (An Agentic AI) are reading this document then your job is to try and be the _Syllabot_! Finish reading this document and then answer the prompt as the _Syllabot_.
@@ -168,32 +111,43 @@ If you (An Agentic AI) are reading this document then your job is to try and be 
 
 - **Course**: CS351 - Programming Languages
 - **Semester**: Fall 2025
-- **Instructor**: Declan Gray-Mullen - Lecturer - declan.gray-mullen@wne.eedu
+- **Instructor**: Declan Gray-Mullen - Lecturer - declan.gray-mullen@wne.edu
 - **Prerequisites**: CS200 & CS210
 - **Sections**:
+  - CS351-01: Monday/Wednesday 11:00 AM - 12:20 PM
+  - CS351-03: Monday/Wednesday 2:00 - 3:20 PM
 - **Office Hours**:
   - Wednesday 12:30-1:30 PM (Herman 207)
   - Tuesday 12:30-1:30 PM (Herman 207)
 - **GitHub**: Create a GitHub account to complete Programming Assignments - submit your username on Kodiak
-- **Discord**: Join the [Course Discord Server]() - set your nickname to something similar to your IRL name
-- **_Optional_** - **Textbook**:  TBD
-- **_Optional_** - **Syllabot**: Open this [repository]() as a devContainer in VSCode and start your prefered AI agent
+- **Discord**: Join the [Course Discord Server](https://discord.gg/yN3Hq58HZS) - set your nickname to something similar to your IRL name
+- **_Optional_** - **Textbook**:  PLCC Course Notes and Crafting Interpreters
+- **_Optional_** - **Syllabot**: Open this [repository](https://github.com/wne-cs351-f25/pl-syllabot) as a devContainer in VSCode and start your prefered AI agent
 - **Lecture Transcripts**: Anonymized transcripts of class lectures are posted to Kodiak to enhance accessibility
 
 ## Course Learning Objectives
 
 By the end of CS351, you should be able to:
 
-1. TBD
-1. TBD
+1. **Master language implementation** - Build interpreters and understand how programming languages work from lexical analysis through semantic evaluation using PLCC
+1. **Understand syntax and semantics** - Distinguish between how programs are written (syntax) and what they mean (semantics) through formal specifications
+1. **Apply induction and recursion** - Use mathematical induction and recursive techniques to define and process language constructs
+1. **Implement scoping and environments** - Build and manipulate environments to handle variable scoping, binding, and lexical/dynamic scope
+1. **Design expression-based languages** - Create and evaluate languages where everything is an expression, understanding evaluation strategies
+1. **Master parameter passing mechanisms** - Implement and compare call-by-value, call-by-reference, call-by-name, and call-by-need strategies
+1. **Build type systems** - Design and implement static type checking, type inference, and understand type safety guarantees
+1. **Implement object-oriented features** - Add classes, inheritance, polymorphism, and dynamic dispatch to language implementations
+1. **Handle infix expressions and arrays** - Parse and evaluate complex expressions with precedence and associativity, implement array data structures
+1. **Explore logic programming** - Understand declarative programming through Prolog-like languages, unification, and backtracking
+1. **Advanced control flow** - Implement continuations, exception handling, and understand concurrency models including Python's GIL evolution
 
 
 ## Assessment
 
-- **Midterm Exam**: 20%
-- **Final Exam**: 25%
-- **Programming Assignments**: 55%
-  - 7 PAs with the lowest grade dropped
+- **Midterm Exam**: 15%
+- **Final Exam**: 15%
+- **Programming Assignments**: 70%
+  - 12 PAs with the two lowest grade dropped
 
 ### Grade Tracking & Calculator
 
@@ -203,7 +157,7 @@ Use this information to help students calculate their current grade and project 
 
 ```
 
-Current Grade = (Midterm _ 20%) + (Final _ 25%) + (PA_Average _ 55%)
+Current Grade = (Midterm _ 15%) + (Final _ 15%) + (PA_Average _ 70%)
 
 ```
 
@@ -218,13 +172,13 @@ Maximum late: 5 days (50% penalty)
 
 #### Grade Impact Analysis:
 
-- Each PA is worth approximately 7.86% of final grade (55% / 7)
-- With lowest dropped: Each PA worth approximately 9.17% (55% / 6)
+- Each PA is worth approximately 5.8% of final grade (70% / 12)
+- With two lowest dropped: Each PA worth 7% (70% / 10)
 - Show students how each assignment affects their final grade
 
-**Exam Details**: Midterm will be given in-class, Exam 3 will be administered during the final exam period (TBD). All Exams will be completed with the Lockdown browser. Email the instructor to coordinate an accommodation or makeup.
+**Exam Details**: Midterm will be given in-class, and a Final will be administered during the final exam period (TBD). All Exams will be completed with the Lockdown browser. Email the instructor to coordinate an accommodation or makeup.
 
-**Programming Assignment Details**: Programming Assignments are biweekly and due on Wednesday at 11:59 PM via GitHub. Starter code is provided - language will switch between assignments. Solutions posted the following Tuesday. Late policy: 10% deduction per day, maximum 5 days late. Lowest grade dropped.
+**Programming Assignment Details**: Programming Assignments are weekly and due on Wednesday at 11:59 PM via GitHub. Starter code is provided. Solutions posted the following Tuesday. Late policy: 10% deduction per day, maximum 5 days late. Lowest two grades dropped.
 
 **Grade Distribution**: Grades will be posted to Kodiak with feedback available on GitHub within 2 weeks of the original assignment deadline. Exam grades will be posted ASAP.
 
@@ -234,31 +188,31 @@ Maximum late: 5 days (50% penalty)
 - Friday, Sept 5: Last add/drop
 - Monday, Oct 13: No Class (Fall Break)
 - Monday, Oct 20: In-progress grades
-- October 27, 2025: **Midterm** - Midterm Exam
+- Monday, October 20: **Midterm** - Midterm Exam
 - Monday, Oct 27: Last withdraw
 - Wednesday, Nov 26: No Class (Thanksgiving)
 - Wednesday, Dec 3: Last class
-- December 8-12, 2025 (TBD): **Final** - Final Exam (Location TBD)
+- Monday, December 8 - Friday, December 12: **Final** - Final Exam (Location TBD)
 - Monday, Dec 15: Final grades posted
 
 ## Assignment Structure and Due Dates
 
-7 PAs total with the lowest grade dropped.
+12 PAs total with the two lowest grade dropped.
 
-- BiWeekly programming assignments due every other Wednesday at 11:59 PM
+- Weekly programming assignments due every Wednesday at 11:59 PM
 - Solutions posted Tuesday morning
 - Late policy: 10% deduction per day, max 5 days late
-- Programming assignments (PA0-PA6) are privately accessible through GitHub Classroom
+- Programming assignments (PA0-PAB) are privately accessible through GitHub Classroom
 - Access requires GitHub usernames to be cross-posted to GitHub Classroom (completed morning of Aug 27th)
 - Contact instructor if username unavailable in GitHub Classroom
 
 ## Course Topics by Exam
 
-### Midterm Exam Topics: 
+### Midterm Exam Topics: In-class comprehensive exam covering foundational programming language concepts through type systems. Includes both theoretical questions and practical PLCC implementation problems using Lockdown Browser.
 
 
 
-### Final Exam Topics: 
+### Final Exam Topics: Comprehensive final exam with emphasis on advanced language features (slides 5-8). Covers object-oriented programming, logic programming, and modern concurrency models. Includes coding components and uses Lockdown Browser format.
 
 
 
@@ -271,9 +225,7 @@ pl-syllabot/
 ├── AGENTS.md # Course context for AI asistant with Codex
 ├── CLAUDE.md # Course context for AI assistant with Claude
 ├── GEMINI.md # Course context for AI assistant with Gemini
-├── LICENSE.md # Repository license information
-├── RULER_SETUP.md # Setup instructions for ruler integration
-└── ruler_aider_instructions.md # Aider-specific ruler instructions
+└── LICENSE.md # Repository license information
 ```
 
 **Key Points for Students:**
@@ -309,4 +261,4 @@ pl-syllabot/
 
 ---
 
-_Course content developed by Declan Gray-Mullen for  with Claude_
+_Course content developed by Declan Gray-Mullen for WNEU with Claude_

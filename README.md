@@ -15,7 +15,7 @@
   - Tuesday 12:30-1:30 PM (Herman 207)
 - **GitHub**: Create a GitHub account to complete Programming Assignments - submit your username on Kodiak
 - **Discord**: Join the [Course Discord Server](https://discord.gg/yN3Hq58HZS) - set your nickname to something similar to your IRL name
-- **_Optional_** - 🆓 / 🏴‍☠️ - **Textbook**: [Crafting Interpreters](https://craftinginterpreters.com/)
+- **_Optional_** - 💵💵 / 🆓 / 🏴‍☠️ - **Textbook**: [Crafting Interpreters](https://craftinginterpreters.com/)
 - **_Optional_** - **Syllabot**: Agentic AI course assistant with multiple access methods:
   - 💵 / 💵💵💵 **Claude Code**: Open this [repository](https://github.com/wne-cs351-f25/pl-syllabot) as a devContainer in VSCode, install the 'Dev Containers' extension if needed, then run [`claude`](https://github.com/anthropics/claude-code) in terminal. Requires Claude Pro account.
   - 🆓 / 💵 **Gemini CLI**: Google's [`gemini`](https://github.com/google-gemini/gemini-cli) cli is also configured as the Syllabot in this devContainer. Works with free tier personal Google accounts.
@@ -49,7 +49,7 @@ Syllabot AUTOMATICALLY displays upcoming deadlines at the START of EVERY interac
 - Days/hours remaining until deadline
 - Late penalty calculation (-10% per day, max 5 days)
 - Grade impact for each item (% of final grade)
-- Auto-reminder about lowest PA grade drop
+- Auto-reminder about two-lowest PA grade drop
 
 ## Critical Dates
 
@@ -57,11 +57,11 @@ Syllabot AUTOMATICALLY displays upcoming deadlines at the START of EVERY interac
 - Friday, Sept 5: Last add/drop
 - Monday, Oct 13: No Class (Fall Break)
 - Monday, Oct 20: In-progress grades
-- Monday, October 20: **Midterm** - Midterm Exam
+- Monday, Oct 20: **Midterm** - Midterm Exam 📝
 - Monday, Oct 27: Last withdraw
 - Wednesday, Nov 26: No Class (Thanksgiving)
 - Wednesday, Dec 3: Last class
-- Monday, December 8 - Friday, December 12: **Final** - Final Exam (Location TBD)
+- Monday, Dec 8 - Friday, Dec 12: **Final** - Final Exam (Location TBD) 📝
 - Monday, Dec 15: Final grades posted
 
 ## Repository Structure
@@ -74,8 +74,8 @@ pl-syllabot/
 ├── AGENTS.md # Course context for AI asistant with Codex/OpenCode
 ├── CLAUDE.md # Course context for AI assistant with Claude
 ├── LICENSE.md # Repository license information
-├── `Final/` # Lesson and reading content for the final exam
-└── `Midterm/` # Lesson and reading content for the midterm exam
+├── Final/ # Lesson and reading content for the final exam
+└── Midterm/ # Lesson and reading content for the midterm exam
 ```
 
 **Key Notes:**
@@ -205,10 +205,10 @@ By the end of CS351, you should be able to:
 
 ## Examinations
 
-### Midterm Exam - Monday, October 20 (15%)
+### Midterm Exam - Monday, Oct 20 (15%)
 In-class comprehensive exam covering foundational programming language concepts through type systems. Includes both theoretical questions and practical PLCC implementation problems using Lockdown Browser.
 
-### Final Exam - Monday, December 8 - Friday, December 12 (15%)
+### Final Exam - Monday, Dec 8 - Friday, Dec 12 (15%)
 Comprehensive final exam with emphasis on advanced language features (slides 5-8). Covers object-oriented programming, logic programming, and modern concurrency models. Includes coding components and uses Lockdown Browser format.
 
 ## Grading
@@ -291,6 +291,8 @@ Once I have a copy of your approved accommodations from SAS we can plan a time t
 5. **Mental Health Support**
    - Counseling Services: 413-782-1211
    - Email: counseling.services@wne.edu
+
+Welcome to meta-programming!
 
 ---
 

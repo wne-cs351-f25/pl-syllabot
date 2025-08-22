@@ -20,5 +20,5 @@
 
 ## Exam Schedule
 
-- **Midterm Exam**: Monday, October 20
-- **Final Exam**: Monday, December 8 - Friday, December 12
+- **Midterm Exam**: Monday, Oct 20
+- **Final Exam**: Monday, Dec 8 - Friday, Dec 12

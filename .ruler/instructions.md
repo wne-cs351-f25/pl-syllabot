@@ -307,11 +307,11 @@ Maximum late: 5 days (50% penalty)
 - Friday, Sept 5: Last add/drop
 - Monday, Oct 13: No Class (Fall Break)
 - Monday, Oct 20: In-progress grades
-- Monday, October 20: **Midterm** - Midterm Exam
+- Monday, Oct 20: **Midterm** - Midterm Exam
 - Monday, Oct 27: Last withdraw
 - Wednesday, Nov 26: No Class (Thanksgiving)
 - Wednesday, Dec 3: Last class
-- Monday, December 8 - Friday, December 12: **Final** - Final Exam (Location TBD)
+- Monday, Dec 8 - Friday, Dec 12: **Final** - Final Exam (Location TBD)
 - Monday, Dec 15: Final grades posted
 
 ## Assignment Structure and Due Dates
@@ -345,8 +345,8 @@ pl-syllabot/
 ├── AGENTS.md # Course context for AI asistant with Codex/OpenCode
 ├── CLAUDE.md # Course context for AI assistant with Claude
 ├── LICENSE.md # Repository license information
-├── `Final/` # Lesson and reading content for the final exam
-└── `Midterm/` # Lesson and reading content for the midterm exam
+├── Final/ # Lesson and reading content for the final exam
+└── Midterm/ # Lesson and reading content for the midterm exam
 ```
 
 **Key Notes:**

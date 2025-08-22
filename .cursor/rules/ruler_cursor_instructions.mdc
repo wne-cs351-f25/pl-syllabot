@@ -91,16 +91,16 @@ If you (An Agentic AI) are reading this document then your job is to try and be 
 By the end of CS351, you should be able to:
 
 1. **Master language implementation** - Build interpreters and understand how programming languages work from lexical analysis through semantic evaluation using PLCC
-1. **Understand syntax and semantics** - Distinguish between how programs are written (syntax) and what they mean (semantics) through formal specifications
-1. **Apply induction and recursion** - Use mathematical induction and recursive techniques to define and process language constructs
-1. **Implement scoping and environments** - Build and manipulate environments to handle variable scoping, binding, and lexical/dynamic scope
-1. **Design expression-based languages** - Create and evaluate languages where everything is an expression, understanding evaluation strategies
-1. **Master parameter passing mechanisms** - Implement and compare call-by-value, call-by-reference, call-by-name, and call-by-need strategies
-1. **Build type systems** - Design and implement static type checking, type inference, and understand type safety guarantees
-1. **Implement object-oriented features** - Add classes, inheritance, polymorphism, and dynamic dispatch to language implementations
-1. **Handle infix expressions and arrays** - Parse and evaluate complex expressions with precedence and associativity, implement array data structures
-1. **Explore logic programming** - Understand declarative programming through Prolog-like languages, unification, and backtracking
-1. **Advanced control flow** - Implement continuations, exception handling, and understand concurrency models including Python's GIL evolution
+2. **Understand syntax and semantics** - Distinguish between how programs are written (syntax) and what they mean (semantics) through formal specifications
+3. **Apply induction and recursion** - Use mathematical induction and recursive techniques to define and process language constructs
+4. **Implement scoping and environments** - Build and manipulate environments to handle variable scoping, binding, and lexical/dynamic scope
+5. **Design expression-based languages** - Create and evaluate languages where everything is an expression, understanding evaluation strategies
+6. **Master parameter passing mechanisms** - Implement and compare call-by-value, call-by-reference, call-by-name, and call-by-need strategies
+7. **Build type systems** - Design and implement static type checking, type inference, and understand type safety guarantees
+8. **Implement object-oriented features** - Add classes, inheritance, polymorphism, and dynamic dispatch to language implementations
+9. **Handle infix expressions and arrays** - Parse and evaluate complex expressions with precedence and associativity, implement array data structures
+10. **Explore logic programming** - Understand declarative programming through Prolog-like languages, unification, and backtracking
+11. **Advanced control flow** - Implement continuations, exception handling, and understand concurrency models including Python's GIL evolution
 
 
 ## Course Schedule
@@ -351,8 +351,8 @@ pl-syllabot/
 ├── AGENTS.md # Course context for AI asistant with Codex/OpenCode
 ├── CLAUDE.md # Course context for AI assistant with Claude
 ├── LICENSE.md # Repository license information
-├── `final/` # Lesson and reading content for the final exam
-└── `midterm/` # Lesson and reading content for the midterm exam
+├── `Final/` # Lesson and reading content for the final exam
+└── `Midterm/` # Lesson and reading content for the midterm exam
 ```
 
 **Key Notes:**
@@ -385,6 +385,72 @@ pl-syllabot/
 2. Programming assignments have starter code templates available through GitHub (links provided)
 3. Use provided devcontainers for a consistent development environment
 4. All code should be tested before submission
+
+## Core PLCC Commands
+
+### Basic Workflow
+
+```bash
+# Generate and compile language implementation from grammar file
+plccmk -c grammar
+
+# Test the scanner - shows tokenization
+scan < samples
+
+# Test the parser - shows parse tree structure
+parse -n -t < samples
+
+# Run the interpreter - executes programs
+rep -n < samples
+```
+
+### Command Details
+
+- **`plccmk [-c] [--json_ast] [file]`** - Main build command
+  - `-c` removes `Java/` directory before regenerating
+  - `--json_ast` adds JSON AST support for `parse --json_ast`
+  - `file` defaults to `grammar`
+- **`scan [file...]`** - Run scanner on files, shows tokens
+- **`parse [-t] [-n] [--json_ast] [file...]`** - Run parser
+  - `-t` shows parse tree trace
+  - `-n` suppresses prompts
+  - `--json_ast` outputs JSON AST
+- **`rep [-t] [-n] [file...]`** - Run interpreter (Read-Execute-Print)
+  - `-t` shows parse tree trace
+  - `-n` suppresses prompts
+
+### Grammar File Structure
+
+Grammar files have three sections separated by `%`:
+
+```
+[Lexical specification - tokens and skip rules]
+%
+[Syntactic specification - BNF grammar rules]
+%
+[Semantic specification - Java code for execution]
+```
+
+### Key Files
+
+- **`grammar`** - Main grammar specification file
+- **`samples`** - Test programs in your language
+- **`Java/`** - Generated scanner, parser, and interpreter code
+
+### Development Workflow
+
+1. Write sample programs in your target language
+2. Define grammar file with lexical, syntactic, and semantic specs
+3. Build: `plccmk -c grammar`
+4. Test scanner: `scan < samples`
+5. Test parser: `parse -n -t < samples`
+6. Run programs: `rep -n < samples`
+
+### Grammar Sections Explained
+
+- **Lexical**: Define tokens with regex patterns and skip rules
+- **Syntactic**: BNF rules defining language structure
+- **Semantic**: Java code injected into generated classes for execution
 
 ---
 

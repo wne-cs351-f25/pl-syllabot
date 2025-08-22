@@ -15,6 +15,7 @@
   - Tuesday 12:30-1:30 PM (Herman 207)
 - **GitHub**: Create a GitHub account to complete Programming Assignments - submit your username on Kodiak
 - **Discord**: Join the [Course Discord Server](https://discord.gg/yN3Hq58HZS) - set your nickname to something similar to your IRL name
+- **PLCC**: [Programming Language Compiler Compiler](https://github.com/ourPLCC/plcc) - Primary course tool for building interpreters
 - **_Optional_** - 💵💵 / 🆓 / 🏴‍☠️ - **Textbook**: [Crafting Interpreters](https://craftinginterpreters.com/)
 - **_Optional_** - **Syllabot**: Agentic AI course assistant with multiple access methods:
   - 💵 / 💵💵💵 **Claude Code**: Open this [repository](https://github.com/wne-cs351-f25/pl-syllabot) as a devContainer in VSCode, install the 'Dev Containers' extension if needed, then run [`claude`](https://github.com/anthropics/claude-code) in terminal. Requires Claude Pro account.

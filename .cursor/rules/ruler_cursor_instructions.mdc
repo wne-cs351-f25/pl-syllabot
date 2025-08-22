@@ -452,6 +452,50 @@ Grammar files have three sections separated by `%`:
 - **Syntactic**: BNF rules defining language structure
 - **Semantic**: Java code injected into generated classes for execution
 
+## PLCC Tool Background
+
+### What is PLCC?
+
+[PLCC (Programming Language Compiler Compiler)](https://github.com/ourPLCC/plcc) is a specialized tool designed for teaching and learning programming language concepts. It enables students to build complete language implementations through a grammar-driven approach.
+
+### Key Features
+
+- **Educational Focus**: Specifically designed for academic environments to teach language implementation
+- **Three-Phase Architecture**: Cleanly separates lexical analysis, parsing, and semantic evaluation
+- **Automatic Code Generation**: Generates Java-based scanners, parsers, and interpreters from grammar specifications
+- **Incremental Development**: Supports building languages progressively, adding features one at a time
+
+### PLCC vs Other Tools
+
+Unlike production compiler tools (ANTLR, Yacc, Bison), PLCC prioritizes:
+- **Simplicity**: Minimal syntax and clear separation of concerns
+- **Learning**: Each phase is transparent and easy to understand
+- **Rapid Prototyping**: Quick iteration on language designs
+- **Integration**: All tools work together seamlessly
+
+### Installation Options
+
+PLCC supports multiple installation methods to accommodate different learning environments:
+
+1. **GitPod**: Browser-based development with zero local installation
+2. **Docker**: Consistent environment via containerization  
+3. **Native**: Direct installation on Linux/macOS/WSL
+
+### Course Integration
+
+In CS351, PLCC serves as the primary tool for:
+- **Programming Assignments**: All PAs use PLCC for language implementation
+- **Incremental Learning**: Each assignment builds on previous language features
+- **Hands-on Experience**: Students write actual interpreters, not just study theory
+- **Real Implementation**: Generated code is readable Java that students can examine and understand
+
+### Community and Support
+
+- **Open Source**: GPL v3.0+ licensed with active community development
+- **Discord Support**: Active community at https://discord.gg/EVtNSxS9E2
+- **Educational Resources**: Extensive documentation and example languages
+- **Course Materials**: Associated teaching materials at [ourPLCC/course](https://github.com/ourPLCC/course)
+
 ---
 
 _Course content developed by Declan Gray-Mullen for WNEU with Claude_

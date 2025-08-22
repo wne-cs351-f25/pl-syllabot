@@ -4,7 +4,7 @@
 
 ## Course Information
 
-- **Instructor**: CS351 - Lecturer - declan.gray-mullen@wne.edu
+- **Instructor**: Declan Gray-Mullen - Lecturer - declan.gray-mullen@wne.edu
 - **Semester**: Fall 2025
 - **Prerequisites**: CS200 & CS210
 - **Sections**:

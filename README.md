@@ -278,8 +278,8 @@ Once I have a copy of your approved accommodations from SAS we can plan a time t
    - Subject line: "URGENT: CS351 - [Your Issue]"
 
 2. **Quick Questions**
-   - Ask Syllabot (Claude) first
-   - Discord channels for peer help
+   - Ask Syllabot
+   - Discord channels for help
 
 3. **In-Depth Help**
    - Office hours: Wednesday 12:30-1:30 PM (Herman 207), Tuesday 12:30-1:30 PM (Herman 207)

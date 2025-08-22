@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Custom Git Configuration
+# This file is ignored by git and contains your personal git settings.
+# 
+# Copy git-config.sh to git-config-custom.sh and modify this section with your settings:
+
+set -e
+
+echo "Applying custom git configuration..."
+
+# Add repository folder mounted on host as safe
+git config --global --add safe.directory /workspace
+
+# Example: Set your user email and name
+# Uncomment and modify these lines with your information:
+# git config --global user.email "first.last@wne.edu"
+# git config --global user.name "First Last"
+
+# Example: Set your preferred editor
+# git config --global core.editor "vi"
+
+# Example: Other common git configurations
+# git config --global init.defaultBranch main
+# git config --global pull.rebase false
+# git config --global core.ignorecase false
+
+echo "Custom git configuration applied."

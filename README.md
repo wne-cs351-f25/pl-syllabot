@@ -190,19 +190,21 @@ By the end of CS351, you should be able to:
 
 | Title | Due Date |
 |-------|----------|
-| PA0 - Setup and Environment Testing | Sep 3 |
-| PA1 - Lexical Specification | Sep 10 |
-| PA2 - Grammar and Parsing | Sep 24 |
-| PA3 - Simple Interpreter | Oct 1 |
-| PA4 - LetExp Language | Oct 8 |
-| PA5 - Procedures and Functions | Oct 15 |
-| PA6 - Type Checker | Oct 29 |
-| PA7 - Object-Oriented Features | Nov 5 |
-| PA8 - Class Implementation | Nov 12 |
-| PA9 - Infix Calculator | Nov 19 |
-| PAA - Logic Programming | Nov 24 |
-| PAB - Continuations and Control | Dec 3 |
+| [PA0 - Setup and Environment Testing]() | Sep 3 |
+| [PA1 - Lexical Specification]() | Sep 10 |
+| [PA2 - Grammar and Parsing]() | Sep 24 |
+| [PA3 - Simple Interpreter]() | Oct 1 |
+| [PA4 - LetExp Language]() | Oct 8 |
+| [PA5 - Procedures and Functions]() | Oct 15 |
+| [PA6 - Type Checker]() | Oct 29 |
+| [PA7 - Object-Oriented Features]() | Nov 5 |
+| [PA8 - Class Implementation]() | Nov 12 |
+| [PA9 - Infix Calculator]() | Nov 19 |
+| [PAA - Logic Programming]() | Nov 24 |
+| [PAB - Continuations and Control]() | Dec 3 |
 
+
+**Note**: Assignment links will be activated as the course progresses. Check Discord #announcements for notifications when assignments are posted, or visit your GitHub Classroom Dashboard (linked on Kodiak).
 
 ## Examinations
 

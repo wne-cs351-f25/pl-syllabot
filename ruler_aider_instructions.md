@@ -264,6 +264,8 @@ By the end of CS351, you should be able to:
 | PAB - Continuations and Control | Dec 3 | Continuation passing style, Exception mechanisms, Control flow, Error recovery |
 
 
+**Note**: Assignment links will be activated as the course progresses. Check Discord #announcements for notifications when assignments are posted, or visit your GitHub Classroom Dashboard (linked on Kodiak).
+
 ## Assessment
 
 - **Midterm Exam**: 15%

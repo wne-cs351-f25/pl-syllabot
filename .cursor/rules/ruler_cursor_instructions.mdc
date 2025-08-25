@@ -348,7 +348,7 @@ Maximum late: 5 days (50% penalty)
 ```
 pl-syllabot/
 ├── .devcontainer/ # Development environment configuration
-├── README.md # This file - Detailed syllabus and course information
+├── README.md # Detailed syllabus and course information
 ├── GEMINI.md # Course context for AI assistant with Gemini
 ├── AGENTS.md # Course context for AI asistant with Codex/OpenCode
 ├── CLAUDE.md # Course context for AI assistant with Claude
@@ -474,14 +474,6 @@ Unlike production compiler tools (ANTLR, Yacc, Bison), PLCC prioritizes:
 - **Learning**: Each phase is transparent and easy to understand
 - **Rapid Prototyping**: Quick iteration on language designs
 - **Integration**: All tools work together seamlessly
-
-### Installation Options
-
-PLCC supports multiple installation methods to accommodate different learning environments:
-
-1. **GitPod**: Browser-based development with zero local installation
-2. **Docker**: Consistent environment via containerization  
-3. **Native**: Direct installation on Linux/macOS/WSL
 
 ### Course Integration
 

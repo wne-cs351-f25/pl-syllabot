@@ -22,12 +22,7 @@
       "groovyVersion": "latest"
     }
   },
-  "runArgs": [
-    "--cap-add=NET_ADMIN",
-    "--cap-add=NET_RAW",
-    "--name",
-    "cs351-syllabot"
-  ],
+  "runArgs": ["--name", "cs351-syllabot"],
   "customizations": {
     "vscode": {
       "extensions": [

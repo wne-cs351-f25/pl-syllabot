@@ -52,3 +52,6 @@ ruler_aider_instructions.md.bak
 # END Ruler Generated Files
 
 *mcp.json
+
+# DevContainer personal git configuration
+.devcontainer/git-config-custom.sh

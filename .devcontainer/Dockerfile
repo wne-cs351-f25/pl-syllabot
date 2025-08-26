@@ -12,10 +12,6 @@ RUN apt-get update && \
         unzip \
         gnupg2 \
         gh \
-        iptables \
-        ipset \
-        iproute2 \
-        dnsutils \
         aggregate \
         jq \
         nano \

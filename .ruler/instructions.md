@@ -306,6 +306,7 @@ Maximum late: 5 days (50% penalty)
 ## Critical Dates
 
 - Monday, Aug 25: First class
+- Monday, Sept 1: No Class (Labor Day)
 - Friday, Sept 5: Last add/drop
 - Monday, Oct 13: No Class (Fall Break)
 - Monday, Oct 20: In-progress grades

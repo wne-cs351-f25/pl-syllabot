@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Custom Git Configuration
-# This file is ignored by git and contains your personal git settings.
+# This file is ignored by git and can be customized with your personal git settings.
 # 
-# Copy git-config.sh to git-config-custom.sh and modify this section with your settings:
+# Copy git-config-custom.sh.example to git-config-custom.sh and modify this section with your settings:
 
 set -e
 

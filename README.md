@@ -191,7 +191,7 @@ By the end of CS351, you should be able to:
 
 | Title | Due Date |
 |-------|----------|
-| [PA0 - Setup and Environment Testing]() | Sep 3 |
+| [PA0 - Setup and Environment Testing](https://classroom.github.com/a/DHrQw5IZ) | Sep 3 |
 | [PA1 - Lexical Specification]() | Sep 10 |
 | [PA2 - Grammar and Parsing]() | Sep 24 |
 | [PA3 - Simple Interpreter]() | Oct 1 |

@@ -1,6 +1,7 @@
----
-Source: .ruler/instructions.md
----
+
+
+<!-- Source: .ruler/instructions.md -->
+
 # CS351: Programming Languages - Important Instructions for _Syllabot_ - AI Syllabus Assistant for Students
 
 This file contains the complete course information for CS351 and lesson materials as they are posted by the Instructor. When students ask questions, always:

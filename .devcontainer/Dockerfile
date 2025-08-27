@@ -14,6 +14,7 @@ RUN apt-get update && \
         gh \
         aggregate \
         jq \
+        graphviz \
         nano \
         vim \
         g++ \

@@ -110,9 +110,9 @@ By the end of CS351, you should be able to:
 
 
 ### Week 2: Sep 3
-**Topic**: Induction, Recursion, and Scope
+**Topic**: PLCC Lexical Specification
 **PLCC Focus**: Mathematical foundations for language processing
-**Assignment**: PA0 due (Sep 3), PA1 assigned (Lexical Specification)
+**Assignment**: None
 **Readings**:
 - Slides 1: Induction, recursion, and scope
 - 01-overview.md
@@ -121,7 +121,7 @@ By the end of CS351, you should be able to:
 ### Week 3: Sep 8, 10
 **Topic**: PLCC Reference Manual and Grammar Specification
 **PLCC Focus**: Writing PLCC grammars and building scanners/parsers
-**Assignment**: PA1 due (Sep 10), PA2 assigned (Grammar and Parsing)
+**Assignment**: PA0 due (Sep 8), PA1 assigned (Lexical Specification)
 **Readings**:
 - Slides 1a: PLCC reference manual
 - 03-syntactic-specification.md
@@ -131,7 +131,7 @@ By the end of CS351, you should be able to:
 ### Week 4: Sep 15, 17
 **Topic**: Specifying Data and Environments
 **PLCC Focus**: Data structures for language implementation
-**Assignment**: PA3 assigned (Simple Interpreter)
+**Assignment**: PA1 due (Sep 15), PA2 assigned (Grammar and Parsing), PA3 assigned (Simple Interpreter)
 **Readings**:
 - Slides 2: Specifying data; Environments
 - 06-semantic-specification.md
@@ -247,8 +247,8 @@ By the end of CS351, you should be able to:
 
 | Title | Due Date | Topics |
 |-------|----------|--------|
-| PA0 - Setup and Environment Testing | Sep 3 | Working devcontainer environment with PLCC, Successfully run PLCC and evaluate a simple grammar, Basic understanding of PLCC workflow, Provided background information to help tailor the course |
-| PA1 - Lexical Specification | Sep 10 | Skip patterns (whitespace, comments), Token definitions, Regular expressions in PLCC, Lexical error handling |
+| PA0 - Setup and Environment Testing | Sep 8 | Working devcontainer environment with PLCC, Successfully run PLCC and evaluate a simple grammar, Basic understanding of PLCC workflow, Provided background information to help tailor the course |
+| PA1 - Lexical Specification | Sep 15 | Skip patterns (whitespace, comments), Token definitions, Regular expressions in PLCC, Lexical error handling |
 | PA2 - Grammar and Parsing | Sep 24 | BNF notation, Parse tree construction, Grammar ambiguity resolution, Syntax error reporting |
 | PA3 - Simple Interpreter | Oct 1 | Abstract syntax trees, Tree traversal, Expression evaluation, Basic arithmetic operations |
 | PA4 - LetExp Language | Oct 8 | Environment implementation, Variable scoping, Let and let* expressions, Nested scopes |

@@ -4,8 +4,8 @@
 
 | Assignment | Assigned | Due |
 | ---------- | -------- | --- |
-| PA0 - Setup and Environment Testing | Week 1 | Sep 3 |
-| PA1 - Lexical Specification | Week 2 | Sep 10 |
+| PA0 - Setup and Environment Testing | Week 1 | Sep 8 |
+| PA1 - Lexical Specification | Week 2 | Sep 15 |
 | PA2 - Grammar and Parsing | Week 3 | Sep 24 |
 | PA3 - Simple Interpreter | Week 4 | Oct 1 |
 | PA4 - LetExp Language | Week 5 | Oct 8 |

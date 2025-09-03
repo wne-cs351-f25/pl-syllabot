@@ -111,19 +111,19 @@ By the end of CS351, you should be able to:
 **Assignment**: PA0 assigned (Setup & Environment)
 
 ### Week 2: Sep 3
-**Topic**: Induction, Recursion, and Scope
+**Topic**: PLCC Lexical Specification
 
-**Assignment**: PA0 due (Sep 3), PA1 assigned (Lexical Specification)
+**Assignment**: None
 
 ### Week 3: Sep 8, 10
 **Topic**: PLCC Reference Manual and Grammar Specification
 
-**Assignment**: PA1 due (Sep 10), PA2 assigned (Grammar and Parsing)
+**Assignment**: PA0 due (Sep 8), PA1 assigned (Lexical Specification)
 
 ### Week 4: Sep 15, 17
 **Topic**: Specifying Data and Environments
 
-**Assignment**: PA3 assigned (Simple Interpreter)
+**Assignment**: PA1 due (Sep 15), PA2 assigned (Grammar and Parsing), PA3 assigned (Simple Interpreter)
 
 ### Week 5: Sep 22, 24
 **Topic**: Expression-Based Languages
@@ -191,8 +191,8 @@ By the end of CS351, you should be able to:
 
 | Title | Due Date |
 |-------|----------|
-| [PA0 - Setup and Environment Testing](https://classroom.github.com/a/DHrQw5IZ) | Sep 3 |
-| [PA1 - Lexical Specification]() | Sep 10 |
+| [PA0 - Setup and Environment Testing](https://github.com/wne-cs351-f25/pa0-github-and-plcc-devcontainer) | Sep 8 |
+| [PA1 - Lexical Specification]() | Sep 15 |
 | [PA2 - Grammar and Parsing]() | Sep 24 |
 | [PA3 - Simple Interpreter]() | Oct 1 |
 | [PA4 - LetExp Language]() | Oct 8 |

@@ -109,9 +109,8 @@ By the end of CS351, you should be able to:
 **PLCC Focus**: Introduction to PLCC and Language Implementation
 **Assignment**: PA0 assigned (Setup & Environment)
 **Readings**:
-- Slides 0: Syntax and semantics; Tokens
+- Slides 0: Introduction; Tokens
 - 00-introduction.md
-- 02-lexical-specification.md
 
 
 ### Week 2: Sep 3
@@ -119,8 +118,9 @@ By the end of CS351, you should be able to:
 **PLCC Focus**: Mathematical foundations for language processing
 **Assignment**: None
 **Readings**:
-- Slides 1: Induction, recursion, and scope
+- Slides 0: Introduction; Tokens
 - 01-overview.md
+- 02-lexical-specification.md
 
 
 ### Week 3: Sep 8, 10
@@ -128,6 +128,7 @@ By the end of CS351, you should be able to:
 **PLCC Focus**: Writing PLCC grammars and building scanners/parsers
 **Assignment**: PA0 due (Sep 8), PA1 assigned (Lexical Specification)
 **Readings**:
+- Slides 1: Syntax Specification
 - Slides 1a: PLCC reference manual
 - 03-syntactic-specification.md
 - 04-grammar-examples.md

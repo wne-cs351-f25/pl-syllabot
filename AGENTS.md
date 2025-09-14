@@ -140,6 +140,7 @@ By the end of CS351, you should be able to:
 **Assignment**: PA1 due (Sep 15), PA2 assigned (Grammar and Parsing), PA3 assigned (Simple Interpreter)
 **Readings**:
 - Slides 2: Specifying data; Environments
+- 05-parsing.md
 - 06-semantic-specification.md
 - 07-environments.md
 
@@ -151,7 +152,6 @@ By the end of CS351, you should be able to:
 **Readings**:
 - Slides 3: Expression-based languages
 - V3-LetExp.md
-- 05-parsing.md
 
 
 ### Week 6: Sep 29, Oct 1
@@ -255,7 +255,7 @@ By the end of CS351, you should be able to:
 |-------|----------|--------|
 | PA0 - Setup and Environment Testing | Sep 8 | Working devcontainer environment with PLCC, Successfully run PLCC and evaluate a simple grammar, Basic understanding of PLCC workflow, Provided background information to help tailor the course |
 | PA1 - Lexical Specification | Sep 15 | Skip patterns (whitespace, comments), Token definitions, Regular expressions in PLCC, Lexical error handling |
-| PA2 - Grammar and Parsing | Sep 24 | BNF notation, Parse tree construction, Grammar ambiguity resolution, Syntax error reporting |
+| PA2 - Syntax and Semantics Basics | Sep 24 | BNF notation, Parse tree construction, Grammar ambiguity resolution, Syntax error reporting |
 | PA3 - Simple Interpreter | Oct 1 | Abstract syntax trees, Tree traversal, Expression evaluation, Basic arithmetic operations |
 | PA4 - LetExp Language | Oct 8 | Environment implementation, Variable scoping, Let and let* expressions, Nested scopes |
 | PA5 - Procedures and Functions | Oct 15 | Function definitions, Parameter passing, Closures, Recursive functions |

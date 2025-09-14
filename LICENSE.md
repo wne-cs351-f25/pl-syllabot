@@ -39,14 +39,33 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 - License text: https://github.com/ourPLCC/plcc/blob/main/LICENSE
 - Full GPL v3.0 text: https://www.gnu.org/licenses/gpl-3.0.html
 
-## Attribution Requirements
+## Lesson Files from Professor Jackson
 
-When using or redistributing this project:
+The lesson files in the `Midterm/` directory are licensed under the **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)**.
 
-1. **For Syllabot content**: Provide attribution as specified in the CC BY 4.0 license
-2. **For devContainer configuration**: Maintain the original Anthropic copyright notice and terms
-3. **For the PLCC tool**: Comply with the GPL v3.0 license requirements, including providing source code access for any modifications
-4. **For the complete project**: Acknowledge all contributors appropriately
+**Copyright © Professor Jackson**
+
+You are free to:
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially
+
+Under the following terms:
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made
+- **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original
+
+For the full license text, see: https://creativecommons.org/licenses/by-sa/4.0/
+
+## Slides from Timothy Fossum
+
+The slide materials referenced in this repository are licensed under the **GNU Free Documentation License v1.1 or later**.
+
+**Copyright © Timothy Fossum**
+
+Permission is granted to copy, distribute and/or modify these documents under the terms of the GNU Free Documentation License, Version 1.1 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+
+These materials are distributed in the hope that they will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Free Documentation License for more details.
+
+- Full GFDL v1.1 text: https://www.gnu.org/licenses/fdl-1.1.html
 
 ---
 

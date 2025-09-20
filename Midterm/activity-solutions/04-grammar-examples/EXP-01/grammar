@@ -1,0 +1,19 @@
+skip WS '\s+'
+token NUM '[0-9]+'
+token PLUS '\+'
+token MINUS '-'
+token TIMES '\*'
+token DIVIDE '/'
+%
+# ../EXP/grammar + refactored unary-only minus
+<prefixExpression>:SingleExpression ::= <NUM>
+<prefixExpression>:CompoundExpression ::= <operator> <prefixExpression>e1 <prefixExpression>e2
+<prefixExpression>:MinusExpression ::= MINUS <prefixExpression>e1 #<optionalExpression>
+# <optionalExpression>:OptionalArgument ::= <prefixExpression> 
+# Problematic statement consider input sentence program "- 3 - 1" 
+# Ambiguous to determine if two seperate statements (-3 & -1) or single expression (3 - -1)
+
+# <optionalExpression>:EmptyArgument ::= EMPTYSTRING
+<operator>:PlusOP ::= PLUS
+<operator>:TimesOp ::= TIMES
+<operator>:DivideOp ::= DIVIDE

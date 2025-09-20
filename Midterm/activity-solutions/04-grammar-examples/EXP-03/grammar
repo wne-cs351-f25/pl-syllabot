@@ -1,0 +1,19 @@
+skip WS '\s+'
+token NUM '[0-9]+'
+token PLUS '\+'
+token MINUS '-'
+token TIMES '\*'
+token DIVIDE '/'
+token RPAREN '\)'
+token LPAREN '\('
+%
+# ../EXP/grammar + RPAREN + LPAREN + 
+<prefixExpression>:SingleExpression ::= <NUM>
+# must add LPAREN & RPAREN to differentiate "- + 1 2 3 4" as either "(1+2+3)-4" or "(1+2)-3-4"
+<prefixExpression>:CompoundExpression ::= LPAREN <operator> <arguments> RPAREN
+<arguments> ::= <prefixExpression>e1 <prefixExpression>e2 <optionalArguments>
+<optionalArguments> **= <prefixExpression>
+<operator>:PlusOP ::= PLUS
+<operator>:MinusOp ::= MINUS
+<operator>:TimesOp ::= TIMES
+<operator>:DivideOp ::= DIVIDE

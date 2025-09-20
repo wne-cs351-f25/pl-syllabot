@@ -1,0 +1,13 @@
+skip WS '\s+'
+token NUM '[0-9]+'
+token PLUS '\+'
+token MINUS '-'
+token TIMES '\*'
+token DIVIDE '/'
+%
+<prefixExpression>:SingleExpression ::= <NUM>
+<prefixExpression>:CompoundExpression ::= <operator> <prefixExpression>e1 <prefixExpression>e2
+<operator>:PlusOP ::= PLUS
+<operator>:MinusOp ::= MINUS
+<operator>:TimesOp ::= TIMES
+<operator>:DivideOp ::= DIVIDE

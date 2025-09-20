@@ -1,0 +1,17 @@
+skip WS '\s+'
+token POSNUM '[0-9]+'
+token NEGNUM '-[0-9]+'
+token PLUS '\+'
+token MINUS '-'
+token TIMES '\*'
+token DIVIDE '/'
+%
+# ../EXP/grammar + negative literals
+<prefixExpression>:SingleExpression ::= <number>
+<prefixExpression>:CompoundExpression ::= <operator> <prefixExpression>e1 <prefixExpression>e2
+<number>:PositiveNumber ::= <POSNUM>
+<number>:NegativeNumber ::= <NEGNUM>
+<operator>:PlusOP ::= PLUS
+<operator>:MinusOp ::= MINUS
+<operator>:TimesOp ::= TIMES
+<operator>:DivideOp ::= DIVIDE

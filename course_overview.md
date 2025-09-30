@@ -7,7 +7,7 @@
 | PA0 - Setup and Environment Testing | Week 1 | Sep 8 |
 | PA1 - Lexical Specification | Week 2 | Sep 15 |
 | PA2 - Syntax and Semantics Basics | Week 3 | Sep 24 |
-| PA3 - Simple Interpreter | Week 4 | Oct 1 |
+| PA3 - Simple Interpreter | Week 4 | Oct 6 |
 | PA4 - LetExp Language | Week 5 | Oct 8 |
 | PA5 - Procedures and Functions | Week 6 | Oct 15 |
 | PA6 - Type Checker | Week 7 | Oct 29 |

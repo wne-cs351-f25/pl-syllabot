@@ -194,7 +194,7 @@ By the end of CS351, you should be able to:
 | [PA0 - Setup and Environment Testing](https://github.com/wne-cs351-f25/pa0-github-and-plcc-devcontainer) | Sep 8 |
 | [PA1 - Lexical Specification](https://github.com/wne-cs351-f25/cs351-pa1-lexical-specification) | Sep 15 |
 | [PA2 - Syntax and Semantics Basics](https://github.com/wne-cs351-f25/cs351-pa2-syntax-and-semantics-basics) | Sep 24 |
-| [PA3 - Simple Interpreter]() | Oct 1 |
+| [PA3 - Simple Interpreter]() | Oct 6 |
 | [PA4 - LetExp Language]() | Oct 8 |
 | [PA5 - Procedures and Functions]() | Oct 15 |
 | [PA6 - Type Checker]() | Oct 29 |

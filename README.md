@@ -59,7 +59,7 @@ Syllabot AUTOMATICALLY displays upcoming deadlines at the START of EVERY interac
 - Friday, Sept 5: Last add/drop
 - Monday, Oct 13: No Class (Fall Break)
 - Monday, Oct 20: In-progress grades
-- Monday, Oct 20: **Midterm** - Midterm Exam 📝
+- Monday, Oct 27: **Midterm** - Midterm Exam 📝
 - Monday, Oct 27: Last withdraw
 - Wednesday, Nov 26: No Class (Thanksgiving)
 - Wednesday, Dec 3: Last class
@@ -131,54 +131,54 @@ By the end of CS351, you should be able to:
 **Assignment**: PA2 due (Sep 24), PA4 assigned (LetExp Language)
 
 ### Week 6: Sep 29, Oct 1
-**Topic**: Parameter Passing and Mutation
+**Topic**: Bindings and Environments
 
 **Assignment**: PA3 due (Oct 1), PA5 assigned (Procedures)
 
 ### Week 7: Oct 6, 8
-**Topic**: Typed Languages and Type Systems
+**Topic**: Procedures and Recursion
 
-**Assignment**: PA4 due (Oct 8), PA6 assigned (Type Checker)
+**Assignment**: PA4 due (Oct 8), 
 
 ### Week 8: Oct 15
-**Topic**: Midterm Review and Advanced Environments
+**Topic**: Advanced Environments
 
-**Assignment**: PA5 due (Oct 15), Midterm Review
+**Assignment**: PA5 assignmed, Midterm Review
 
 ### Week 9: Oct 20, 22
-**Topic**: Midterm Exam & Object-Oriented Languages
+**Topic**: Type Checking & Midterm Exam Review
 
-**Assignment**: Midterm Exam (Oct 20), PA7 assigned (OOP Features)
+**Assignment**: PA4 due (Oct 22), Midterm Study Guide
 
 ### Week 10: Oct 27, 29
-**Topic**: Object-Oriented Languages (continued)
+**Topic**: Midterm Exam & Object-Oriented Languages
 
-**Assignment**: PA6 due (Oct 29), PA8 assigned (Class Implementation)
+**Assignment**: Midterm Exam, PA5 due (Oct 27), PA6 assigned (Type Checker)
 
 ### Week 11: Nov 3, 5
 **Topic**: Infix Expressions and Arrays
 
-**Assignment**: PA7 due (Nov 5), PA9 assigned (Infix Calculator)
+**Assignment**: PA6 due (Nov 5), PA7 assigned
 
 ### Week 12: Nov 10, 12
 **Topic**: Logic Programming Languages
 
-**Assignment**: PA8 due (Nov 12), PAA assigned (Logic Programming)
+**Assignment**: PA7 due (Nov 12), PA8 assigned
 
 ### Week 13: Nov 17, 19
 **Topic**: Continuations and Exception Handling
 
-**Assignment**: PA9 due (Nov 19), PAB assigned (Continuations)
+**Assignment**: PA8 due (Nov 19), PA9 assigned
 
 ### Week 14: Nov 24
 **Topic**: Parallelism and Concurrency
 
-**Assignment**: PAA due (Nov 24)
+**Assignment**: PA9 due (Nov 24), PAA assigned
 
 ### Week 15: Dec 1, 3
 **Topic**: Course Review and Language Design
 
-**Assignment**: PAB due (Dec 3)
+**Assignment**: PAA due (Dec 3)
 
 ### Week 16: Dec 8-12
 **Topic**: Final Exam Week
@@ -195,8 +195,8 @@ By the end of CS351, you should be able to:
 | [PA1 - Lexical Specification](https://github.com/wne-cs351-f25/cs351-pa1-lexical-specification) | Sep 15 |
 | [PA2 - Syntax and Semantics Basics](https://github.com/wne-cs351-f25/cs351-pa2-syntax-and-semantics-basics) | Sep 24 |
 | [PA3 - Simple Interpreter]() | Oct 6 |
-| [PA4 - LetExp Language]() | Oct 8 |
-| [PA5 - Procedures and Functions]() | Oct 15 |
+| [PA4 - Environments]() | Oct 22 |
+| [PA5 - Environment Diagrams]() | Oct 27 |
 | [PA6 - Type Checker]() | Oct 29 |
 | [PA7 - Object-Oriented Features]() | Nov 5 |
 | [PA8 - Class Implementation]() | Nov 12 |
@@ -209,7 +209,7 @@ By the end of CS351, you should be able to:
 
 ## Examinations
 
-### Midterm Exam - Monday, Oct 20 (15%)
+### Midterm Exam - Monday, Oct 27 (15%)
 In-class comprehensive exam covering foundational programming language concepts through type systems. Includes both theoretical questions and practical PLCC implementation problems using Lockdown Browser.
 
 ### Final Exam - Monday, Dec 8 - Friday, Dec 12 (15%)

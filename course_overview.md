@@ -8,8 +8,8 @@
 | PA1 - Lexical Specification | Week 2 | Sep 15 |
 | PA2 - Syntax and Semantics Basics | Week 3 | Sep 24 |
 | PA3 - Simple Interpreter | Week 4 | Oct 6 |
-| PA4 - LetExp Language | Week 5 | Oct 8 |
-| PA5 - Procedures and Functions | Week 6 | Oct 15 |
+| PA4 - Environments | Week 5 | Oct 22 |
+| PA5 - Environment Diagrams | Week 6 | Oct 27 |
 | PA6 - Type Checker | Week 7 | Oct 29 |
 | PA7 - Object-Oriented Features | Week 9 | Nov 5 |
 | PA8 - Class Implementation | Week 10 | Nov 12 |
@@ -20,5 +20,5 @@
 
 ## Exam Schedule
 
-- **Midterm Exam**: Monday, Oct 20
+- **Midterm Exam**: Monday, Oct 27
 - **Final Exam**: Monday, Dec 8 - Friday, Dec 12

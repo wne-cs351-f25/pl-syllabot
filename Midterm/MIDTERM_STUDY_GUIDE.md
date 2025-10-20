@@ -336,22 +336,4 @@ Identify free variables in these procedures:
 3. `letrec f = proc(x) if zero?(x) then 0 else .f(sub1(x)) in .f(5)` → Free: none (f bound by letrec)
 4. `let f = proc(x) .f(x) in .f(5)` → Free: `f` (let doesn't allow self-reference)
 
-## Quick Reference Sheet
-
-### Grammar Symbols
-
-- `::=` - Defines a rule
-- `**=` - Defines a repeating rule (zero or more)
-- `+COMMA` - Separated by commas
-- `<name>var` - Capture as field 'var'
-- `:ClassName` - Name the generated class
-
-### Expression Types Covered
-
-- Arithmetic: `+`, `-`, `*`, `/`
-- Conditionals: `if-then-else`, `zero?`
-- Variables: `let`, `letrec`, `define`
-- Procedures: `proc`, application with `.`
-- Sequential: `{exp; exp; exp}`
-
 _Course content developed by Declan Gray-Mullen for WNEU with Claude_

@@ -49,37 +49,39 @@ Source Code → [Lexical Analysis] → Tokens → [Syntactic Analysis] → Parse
    - Generates: `ClassName` class with specified fields
 
 3. **Repeating Rule**: `<name> **= ITEM`
-   - Generates: `NameList` class containing a list
+   - Generates: `Name` class containing list attributes (if captured)
 
 #### Class Generation Examples
 
 **Example 1**: Named rule with captured fields
 
 ```
-<pure>:Messy ::= DIRT <gold>g1 <SLIME> <gold>g2
+<stmt>:Assignment ::= LET <var>v <EQUALS> <expr>e1 SEMICOLON
 ```
 
-**Generates**: `Messy(Gold g1, Token slime, Gold g2)`
+**Generates**: `Assignment(Var v, Token equals, Expr e1)`
 
-- DIRT is a token (not captured as field)
-- <gold>g1 becomes field g1 of type Gold
-- <SLIME> becomes field slime of type Token
-- <gold>g2 becomes field g2 of type Gold
+- LET is a token (not captured as field)
+- <var>v becomes field v of type Var
+- <EQUALS> becomes field equals of type Token
+- <expr>e1 becomes field e1 of type Expr
+- SEMICOLON is a token (not captured as field)
 
 **Example 2**: Kleene star rule
 
 ```
-<fuzzy> **= WUZZY <wasa> BEAR
+<params> **= <ident> +COMMA
 ```
 
-**Generates**: `FuzzyList(List<Wasa> wasaList)`
+**Generates**: `Params(List<Ident> identList)`
 
 #### Field Naming Rules
 
-- **Tokens** (all caps like DIRT, WUZZY, BEAR) are NOT included as fields unless explicitly captured
-- **Non-terminals with variable names** become fields (e.g., `<gold>g1` → field `g1` of type `Gold`)
-- **Non-terminals without names** use their type name lowercased (e.g., `<wasa>` → field `wasa`, `<SLIME>` → field `slime`)
+- **Tokens** (all caps like LET, SEMICOLON, COMMA) are NOT included as fields unless explicitly captured
+- **Non-terminals with variable names** become fields (e.g., `<var>v` → field `v` of type `Var`, `<expr>e1` → field `e1` of type `Expr`)
+- **Non-terminals without names** use their type name lowercased (e.g., `<ident>` → field `ident`, `<EQUALS>` → field `equals`)
 - **Repeating Rule** (\*\*=) creates a class with List instance variables
+- **Separators in repeating rules** (like `+COMMA`) indicate tokens that separate list items but are not captured
 
 ### 3. Regular Expressions in PLCC
 
@@ -111,8 +113,8 @@ skip WHITESPACE '\s+'  # Skip one or more whitespace
 - `sub1(5)` evaluates to `4`
 - `*(2, 3)` evaluates to `6`
 - `-(5, 2)` evaluates to `3`
-- `zero?(0)` evaluates to true
-- `zero?(5)` evaluates to false
+- `zero?(0)` evaluates to `1`
+- `zero?(5)` evaluates to `0`
 
 #### If Expressions
 
@@ -228,12 +230,12 @@ Free variables in the proc:
 ```
 let x = 5          # Creates Env1: [x→5] → empty
 in
-  let z = x        # Creates Env2: [z→5, f→proc] → Env1
-      f = proc(y) +(z, +(x, y))
+  let z = x        # Creates Env2: [z→5] → Env1
   in
-    let z = 4      # Creates Env3: [z→4] → Env2
+    let z = 4      # Creates Env3: [z→4, f→proc] → Env2
+    f = proc(y) +(z, +(x, y))
     in
-      .f(z)        # Looks up f in Env3, applies with z=4
+      .f(z)        # Looks up f in Env3, creates Env4: [y→4] → Env2 for applying body of f with z=5
 ```
 
 ### 8. Procedures (V4)
@@ -249,6 +251,7 @@ in
 - Procedures evaluate to ProcVal
 - Must use dot (.) for application
 - Procedures capture their defining environment (closure)
+- Applying a procedure extends the captured environment
 
 ### 9. SeqExp - Sequential Expressions (V4)
 
@@ -295,45 +298,75 @@ define f = proc(y) +(x, y)
 #### Key Points
 
 - Creates global bindings
-- Each define extends the environment
-- Later defines can reference earlier ones
+- Each define modifies the initial (outer-most) environment
+- Later defines can overwrite earlier ones
 
 ## Practice Problems
 
 ### Problem Set 1: Definitions
 
-1. What process converts "3 + 4" into tokens [NUM(3), PLUS, NUM(4)]? **Answer: Lexical Analysis**
-2. What process checks if tokens follow grammar rules? **Answer: Syntactic Analysis**
-3. What process evaluates a parse tree to get a result? **Answer: Semantic Analysis**
+1. What process converts "3 + 4" into tokens [NUM(3), PLUS, NUM(4)]?
+2. What process checks if tokens follow grammar rules?
+3. What process evaluates a parse tree to get a result?
 
 ### Problem Set 2: PLCC Classes
 
 Given these grammar rules, what Java classes are generated?
 
 1. `<expr>:Add ::= PLUS <left> <right>`
-   **Answer**: `Add(Left left, Right right)`
 
 2. `<items> **= ITEM +COMMA`
-   **Answer**: `ItemsList(List<Token> itemList)`
 
 3. `<data>:Record ::= ID COLON <value>val SEMI`
-   **Answer**: `Record(Value val)`
 
 ### Problem Set 3: Expression Evaluation
 
 Evaluate these expressions:
 
-1. `+(if 0 then 3 else 5, 7)` → `12` (0 is false, so 5 + 7)
-2. `let x = 4 in let y = let z = 2 in +(x, z) in *(x, y)` → `24` (y = 6, then 4 \* 6)
-3. `if sub1(1) then 100 else 200` → `200` (sub1(1) = 0 which is false)
+1. `+(if 0 then 3 else 5, 7)`
+2. `let x = 4 in let y = let z = 2 in +(x, z) in *(x, y)`
+3. `if sub1(1) then 100 else 200`
 
 ### Problem Set 4: Free Variables
 
 Identify free variables in these procedures:
 
-1. `proc(x) +(x, y)` → Free: `y`
-2. `proc(x, y) +(x, *(y, z))` → Free: `z`
-3. `letrec f = proc(x) if zero?(x) then 0 else .f(sub1(x)) in .f(5)` → Free: none (f bound by letrec)
-4. `let f = proc(x) .f(x) in .f(5)` → Free: `f` (let doesn't allow self-reference)
+1. `proc(x) +(x, y)`
+2. `proc(x, y) +(x, *(y, z))`
+3. `letrec f = proc(x) if zero?(x) then 0 else .f(sub1(x)) in .f(5)`
+4. `let f = proc(x) .f(x) in .f(5)`
+
+---
+
+## Practice Problem Solutions
+
+### Problem Set 1 Solutions: Definitions
+
+1. **Lexical Analysis** - converts characters to tokens
+2. **Syntactic Analysis** - checks if tokens follow grammar rules
+3. **Semantic Analysis** - evaluates parse tree to get a result
+
+### Problem Set 2 Solutions: PLCC Classes
+
+1. `Add(Left left, Right right)`
+
+2. `Items(List<Token> itemList)`
+
+3. `Record(Value val)`
+
+### Problem Set 3 Solutions: Expression Evaluation
+
+1. `+(if 0 then 3 else 5, 7)` → **12** (0 is false, so 5 + 7)
+2. `let x = 4 in let y = let z = 2 in +(x, z) in *(x, y)` → **24** (y = 6, then 4 × 6)
+3. `if sub1(1) then 100 else 200` → **200** (sub1(1) = 0 which is false)
+
+### Problem Set 4 Solutions: Free Variables
+
+1. `proc(x) +(x, y)` → Free: **y**
+2. `proc(x, y) +(x, *(y, z))` → Free: **z**
+3. `letrec f = proc(x) if zero?(x) then 0 else .f(sub1(x)) in .f(5)` → Free: **none** (f bound by letrec)
+4. `let f = proc(x) .f(x) in .f(5)` → Free: **f** (let doesn't allow self-reference)
+
+---
 
 _Course content developed by Declan Gray-Mullen for WNEU with Claude_

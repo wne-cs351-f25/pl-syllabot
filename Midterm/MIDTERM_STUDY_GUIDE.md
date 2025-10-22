@@ -169,7 +169,7 @@ Evaluates to: `2`
 let
   x = 3
 in
-  let
+  letrec
     x = 5    # This shadows the outer x
     y = x    # y gets 5 (the inner x)
   in

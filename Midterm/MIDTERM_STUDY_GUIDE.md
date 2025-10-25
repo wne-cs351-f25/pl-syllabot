@@ -315,7 +315,7 @@ Given these grammar rules, what Java classes are generated?
 
 1. `<expr>:Add ::= PLUS <left> <right>`
 
-2. `<items> **= ITEM +COMMA`
+2. `<items> **= <ITEM> +COMMA`
 
 3. `<data>:Record ::= ID COLON <value>val SEMI`
 

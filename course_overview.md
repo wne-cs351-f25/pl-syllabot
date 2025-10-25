@@ -10,12 +10,10 @@
 | PA3 - Simple Interpreter | Week 4 | Oct 6 |
 | PA4 - Environments | Week 5 | Oct 22 |
 | PA5 - Environment Diagrams | Week 6 | Oct 27 |
-| PA6 - Type Checker | Week 7 | Oct 29 |
-| PA7 - Object-Oriented Features | Week 9 | Nov 5 |
-| PA8 - Class Implementation | Week 10 | Nov 12 |
-| PA9 - Infix Calculator | Week 11 | Nov 19 |
-| PAA - Logic Programming | Week 12 | Nov 24 |
-| PAB - Continuations and Control | Week 13 | Dec 3 |
+| PA6 - Parameter Passing | Week 8 | Nov 5 |
+| PA7 - Type Checker | Week 10 | Nov 12 |
+| PA8 - Class Implementation | Week 12 | Nov 19 |
+| PA9 - Infix Calculator | Week 13 | Dec 3 |
 
 
 ## Exam Schedule

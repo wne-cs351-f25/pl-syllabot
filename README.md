@@ -197,12 +197,10 @@ By the end of CS351, you should be able to:
 | [PA3 - Simple Interpreter]() | Oct 6 |
 | [PA4 - Environments]() | Oct 22 |
 | [PA5 - Environment Diagrams]() | Oct 27 |
-| [PA6 - Type Checker]() | Oct 29 |
-| [PA7 - Object-Oriented Features]() | Nov 5 |
-| [PA8 - Class Implementation]() | Nov 12 |
-| [PA9 - Infix Calculator]() | Nov 19 |
-| [PAA - Logic Programming]() | Nov 24 |
-| [PAB - Continuations and Control]() | Dec 3 |
+| [PA6 - Parameter Passing]() | Nov 5 |
+| [PA7 - Type Checker]() | Nov 12 |
+| [PA8 - Class Implementation]() | Nov 19 |
+| [PA9 - Infix Calculator]() | Dec 3 |
 
 
 **Note**: Assignment links will be activated as the course progresses. Check Discord #announcements for notifications when assignments are posted, or visit your GitHub Classroom Dashboard (linked on Kodiak).

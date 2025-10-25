@@ -1,17 +1,6 @@
 ---
 trigger: always_on
 ---
-**Note**: Assignment links will be activated as the course progresses. Check Discord #announcements for notifications when assignments are posted, or visit your GitHub Classroom Dashboard (linked on Kodiak).
-
-## Assessment
-
-- **Midterm Exam**: 15%
-- **Final Exam**: 15%
-- **Programming Assignments**: 70%
-  - 12 PAs with the two lowest grade dropped
-
-### Grade Tracking & Calculator
-
 Use this information to help students calculate their current grade and project final grades:
 
 #### Current Grade Formula:

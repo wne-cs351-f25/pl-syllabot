@@ -258,12 +258,10 @@ By the end of CS351, you should be able to:
 | PA3 - Simple Interpreter | Oct 6 | Abstract syntax trees, Tree traversal, Expression evaluation, Basic arithmetic operations |
 | PA4 - Environments | Oct 22 | Environment implementation, Variable scoping, Let and let* expressions, Nested scopes |
 | PA5 - Environment Diagrams | Oct 27 | Function definitions, Parameter passing, Closures, Recursive functions |
-| PA6 - Type Checker | Oct 29 | Type inference, Type safety, Static vs dynamic typing, Type error reporting |
-| PA7 - Object-Oriented Features | Nov 5 | Class definitions, Method dispatch, Inheritance, Field access |
-| PA8 - Class Implementation | Nov 12 | Virtual methods, Interface implementation, Dynamic dispatch, Method overriding |
-| PA9 - Infix Calculator | Nov 19 | Operator precedence, Associativity, Expression parsing, Parentheses handling |
-| PAA - Logic Programming | Nov 24 | Facts and rules, Unification, Backtracking, Query evaluation |
-| PAB - Continuations and Control | Dec 3 | Continuation passing style, Exception mechanisms, Control flow, Error recovery |
+| PA6 - Parameter Passing | Nov 5 | call-by-reference, call-by-value, call-by-need, call-by-name |
+| PA7 - Type Checker | Nov 12 | Type inference, Type safety, Static vs dynamic typing, Type error reporting |
+| PA8 - Class Implementation | Nov 19 | Virtual methods, Interface implementation, Dynamic dispatch, Method overriding |
+| PA9 - Infix Calculator | Dec 3 | Operator precedence, Associativity, Expression parsing, Parentheses handling |
 
 
 **Note**: Assignment links will be activated as the course progresses. Check Discord #announcements for notifications when assignments are posted, or visit your GitHub Classroom Dashboard (linked on Kodiak).
